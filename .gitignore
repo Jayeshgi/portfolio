@@ -1,9 +1,11 @@
 node_modules/
 dist/
 .local/
+.vercel/
 .env
 .env.*
 !.env.example
+*.pem
 reference/*.jpg
 reference/*.png
 reference/*.mp4

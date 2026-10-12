@@ -56,4 +56,4 @@ See [design review](docs/DESIGN_REVIEW.md), [tech stack](docs/TECH_STACK.md), [b
 
 Remaining personal inputs: actual project screenshots and demo URLs where available, and a corrected resume email. Personal photographs were supplied and integrated on 12 October 2026. The website uses er.jayeshsonar@gmail.com; the unchanged PDF contains a different address. See [content status](docs/CONTENT_STATUS.md) and [resume notes](docs/RESUME_NOTES.md).
 
-Before public launch, review factual copy, choose the final domain, add the canonical/share metadata, and remove the noindex restriction in index.html. Fonts currently load from Google Fonts with system fallbacks. No database, API key, or paid plugin is required.
+Before public launch, review factual copy, choose the final domain, and add canonical/share metadata using that domain. Fonts currently load from Google Fonts with system fallbacks. No database, API key, or paid plugin is required.
