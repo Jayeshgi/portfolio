@@ -1,0 +1,44 @@
+{
+  "App.tsx": {
+    "mtime": 1791815410.4129152,
+    "seen": 1791815591.0322905,
+    "ast_hash": "d235b7c1b3f4d5aa3c74abf83f8c6da6",
+    "semantic_hash": "d235b7c1b3f4d5aa3c74abf83f8c6da6"
+  },
+  "Visuals.tsx": {
+    "mtime": 1791815410.413998,
+    "seen": 1791815591.0322905,
+    "ast_hash": "da470a9ff255cee7b4757bcdf24d73d2",
+    "semantic_hash": "da470a9ff255cee7b4757bcdf24d73d2"
+  },
+  "content.ts": {
+    "mtime": 1791815032.8581393,
+    "seen": 1791815591.033291,
+    "ast_hash": "4a6c65e2c0d0fef3a56594d8dcde7756",
+    "semantic_hash": "4a6c65e2c0d0fef3a56594d8dcde7756"
+  },
+  "main.tsx": {
+    "mtime": 1791795045.0650556,
+    "seen": 1791795470.5988328,
+    "ast_hash": "f701d5cc3dc84c6bf112c90c9407b26a",
+    "semantic_hash": "f701d5cc3dc84c6bf112c90c9407b26a"
+  },
+  "profile.ts": {
+    "mtime": 1791815032.8581393,
+    "seen": 1791815591.033291,
+    "ast_hash": "8bf8cc546b7228afbd8743421b36dece",
+    "semantic_hash": "8bf8cc546b7228afbd8743421b36dece"
+  },
+  "vite-env.d.ts": {
+    "mtime": 1791738173.939227,
+    "seen": 1791793426.6605663,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "components/CinematicHero.tsx": {
+    "mtime": 1791814110.8857949,
+    "seen": 1791814245.7747364,
+    "ast_hash": "df99e809183c06f908d41c0239a327aa",
+    "semantic_hash": "df99e809183c06f908d41c0239a327aa"
+  }
+}

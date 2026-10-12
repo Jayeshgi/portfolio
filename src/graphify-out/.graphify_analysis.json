@@ -1,0 +1,171 @@
+{
+  "communities": {
+    "0": [
+      "app_about",
+      "app_app",
+      "app_casestudy",
+      "app_contact",
+      "app_cursor",
+      "app_externallink",
+      "app_indexlabel",
+      "app_journey",
+      "app_navbar"
+    ],
+    "1": [
+      "cinematic",
+      "components_cinematichero",
+      "components_cinematichero_cinematichero",
+      "components_cinematichero_elasticword",
+      "main",
+      "ref_framer_motion",
+      "ref_react",
+      "ref_react_dom",
+      "styles"
+    ],
+    "2": [
+      "app",
+      "app_ease",
+      "content_experiments",
+      "content_links",
+      "content_profile",
+      "content_projects"
+    ],
+    "3": [
+      "app_experiments",
+      "app_projectshowcase",
+      "app_reveal",
+      "app_signalplayground",
+      "app_work",
+      "visuals_projectvisual"
+    ],
+    "4": [
+      "content",
+      "content_allprojects",
+      "content_fromoriginal",
+      "content_original",
+      "profile",
+      "profile_portfolio"
+    ],
+    "5": [
+      "content_project",
+      "ref_lucide_react",
+      "visuals"
+    ],
+    "6": [
+      "vite_env_d"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3055555555555556,
+    "1": 0.25,
+    "2": 0.3333333333333333,
+    "3": 0.4666666666666667,
+    "4": 0.4666666666666667,
+    "5": 0.6666666666666666,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_app",
+      "label": "App()",
+      "degree": 11
+    },
+    {
+      "id": "app_indexlabel",
+      "label": "IndexLabel()",
+      "degree": 6
+    },
+    {
+      "id": "app_experiments",
+      "label": "Experiments()",
+      "degree": 6
+    },
+    {
+      "id": "app_reveal",
+      "label": "Reveal()",
+      "degree": 6
+    },
+    {
+      "id": "app_contact",
+      "label": "Contact()",
+      "degree": 5
+    },
+    {
+      "id": "app_work",
+      "label": "Work()",
+      "degree": 5
+    },
+    {
+      "id": "app_about",
+      "label": "About()",
+      "degree": 4
+    },
+    {
+      "id": "components_cinematichero_cinematichero",
+      "label": "CinematicHero()",
+      "degree": 4
+    },
+    {
+      "id": "app_projectshowcase",
+      "label": "ProjectShowcase()",
+      "degree": 4
+    },
+    {
+      "id": "visuals_projectvisual",
+      "label": "ProjectVisual()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "App()",
+      "target": "CinematicHero()",
+      "source_files": [
+        "App.tsx",
+        "components/CinematicHero.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Experiments()",
+      "target": "ProjectVisual()",
+      "source_files": [
+        "App.tsx",
+        "Visuals.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "ProjectShowcase()",
+      "target": "ProjectVisual()",
+      "source_files": [
+        "App.tsx",
+        "Visuals.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `App()` connect `App` to `CinematicHero.tsx`, `App.tsx`, `Experiments`?",
+      "why": "High betweenness centrality (0.050) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `CinematicHero()` connect `CinematicHero.tsx` to `App`, `App.tsx`?",
+      "why": "High betweenness centrality (0.025) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Experiments()` connect `Experiments` to `App`, `App.tsx`?",
+      "why": "High betweenness centrality (0.005) - this node is a cross-community bridge."
+    }
+  ]
+}

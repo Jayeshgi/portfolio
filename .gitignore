@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.local/
+.env
+.env.*
+!.env.example
+reference/*.jpg
+reference/*.png
+reference/*.mp4
+*.log
+.DS_Store
+Thumbs.db
