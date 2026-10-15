@@ -1,0 +1,24 @@
+.tech-hover-list { min-width:0; border-top:1px solid var(--line); }
+.tech-hover-row { --tech-row-height:320px; position:relative; display:block; width:100%; overflow:hidden; border:0; border-bottom:1px solid var(--line); background:#101b1c; color:var(--ink); text-align:left; cursor:pointer; }
+.tech-hover-row:focus-visible { outline:2px solid var(--accent); outline-offset:3px; z-index:1; }
+.tech-hover-art,.tech-hover-shade { position:absolute; inset:0; pointer-events:none; }
+.tech-hover-art img { display:block; width:100%; height:100%; object-fit:contain; object-position:center top; }
+.tech-hover-shade { background:linear-gradient(0deg,#0c1517 0%,#0c1517e8 22%,#0c15171a 72%); }
+.tech-hover-copy { position:absolute; bottom:22px; left:24px; right:24px; }
+.tech-hover-heading { display:flex; align-items:center; gap:16px; }
+.tech-hover-number { color:#d3b989; font-size:11px; font-variant-numeric:tabular-nums; }
+.tech-hover-label { font-size:clamp(18px,2vw,25px); font-weight:500; letter-spacing:-.035em; }
+.tech-hover-category { margin-left:auto; color:#b7c9c1; font-size:9px; text-transform:uppercase; letter-spacing:.12em; }
+.tech-hover-arrow { color:#eac183; font-size:21px; }
+.tech-hover-description { display:block; overflow:hidden; color:#d5ddd7; font-size:13px; line-height:1.8; max-width:680px; padding-left:30px; }
+@media(max-width:600px) {
+  .tech-hover-row { --tech-row-height:250px; }
+  .tech-hover-row:last-child { --tech-row-height:350px; }
+  .tech-hover-copy { left:16px; right:16px; bottom:24px; }
+  .tech-hover-heading { gap:10px; }
+  .tech-hover-category { display:none; }
+  .tech-hover-arrow { margin-left:auto; }
+  .tech-hover-description { padding-left:0; font-size:12px; line-height:1.7; }
+  .tech-hover-art img { object-position:center top; }
+}
+

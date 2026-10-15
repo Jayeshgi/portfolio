@@ -50,3 +50,8 @@ Exact prompt:
 ## Interactive identity badge
 
 The Lanyard component is adapted from the React Bits component supplied by Jayesh in his attachment. The custom front, back, and strap SVG artwork lives in public/images/id/. The front embeds Jayesh’s original in-transit photograph unchanged. Three.js renders the card and flexible strap; no external model or third-party portrait is used.
+
+
+## Tech stack hover panels
+
+HoverExpand adapts the React component supplied by Jayesh. Technology marks are from [Devicon](https://github.com/devicons/devicon), embedded locally in original SVG compositions under public/images/stack/. Brand names and marks belong to their respective owners. The systems diagram and course illustration are original SVG artwork.
