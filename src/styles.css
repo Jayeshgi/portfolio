@@ -557,3 +557,5 @@ body { background:radial-gradient(ellipse at 78% 4%,#463128 0,transparent 27%),r
  .case-sections section { gap:13px; padding:22px 0; }
  .case-sections p { font-size:13px; }
 }
+
+.about-intro { align-items:center; }

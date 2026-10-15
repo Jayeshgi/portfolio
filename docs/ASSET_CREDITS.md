@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | reference/chrome-sculpture.png | Original image generated for an earlier version on 11 October 2026 | Archived artwork; replaced by Jayesh's photographs and excluded from the active site |
 | public/images/personal/in-transit.jpg | Jayesh's supplied 1.jpeg | Unchanged source photograph for the foreground cutout |
-| public/images/personal/jayesh-cutout.png | Background-extraction edit of in-transit.jpg, made with the built-in imagegen tool on 12 October 2026 | Transparent foreground portrait, 1086 × 1448 RGBA; used with CSS edge blending and scroll-driven perspective rotation |
+| public/images/personal/jayesh-cutout.png | Background-extraction edit of in-transit.jpg, made with the built-in imagegen tool on 12 October 2026 | Transparent foreground portrait, 1086 Ã— 1448 RGBA; used with CSS edge blending and scroll-driven perspective rotation |
 | public/images/personal/sunset.jpg | Jayesh's supplied WhatsApp image ending in (3).jpeg | Hilltop photograph used for the moving background and personal reel |
 | public/images/personal/on-the-water.jpg | Jayesh's supplied WhatsApp image ending in (1).jpeg | Personal photo reel; original file copied unchanged |
 | public/images/personal/open-air.jpg | Jayesh's supplied 3.jpeg | Personal photo reel; original file copied unchanged |
@@ -18,7 +18,7 @@ Unsplash source pages identify these photographs as free under the [Unsplash Lic
 
 Typography: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed) and [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk), loaded from Google Fonts. Icons come from Lucide React. Keep package licenses with their dependencies.
 
-## Project context photographs — 12 October 2026
+## Project context photographs â€” 12 October 2026
 
 The personal photo reel has been removed from the website. Its original image files remain available locally; only the sunset background and portrait cutout are used by the current hero.
 
@@ -40,8 +40,13 @@ The supplied 4.mp4, 5.mp4, and =sample.mp4 were inspected. The original photogra
 
 ## Foreground cutout edit record
 
-Mode: built-in imagegen edit, transparent background enabled. Input: public/images/personal/in-transit.jpg. Final saved output: [jayesh-cutout.png](../public/images/personal/jayesh-cutout.png). Alpha was checked: RGBA, range 0–255, approximately 39.5% fully transparent pixels.
+Mode: built-in imagegen edit, transparent background enabled. Input: public/images/personal/in-transit.jpg. Final saved output: [jayesh-cutout.png](../public/images/personal/jayesh-cutout.png). Alpha was checked: RGBA, range 0â€“255, approximately 39.5% fully transparent pixels.
 
 Exact prompt:
 
 > Use case: background-extraction. Edit target: the attached black-and-white photograph of Jayesh wearing a light shirt and looking to the right. Create a precise transparent PNG cutout for his portfolio website. Remove ONLY the auto-rickshaw, roof, street, seat and all other background. Keep the existing person, visible upper body, face, hair, beard, shirt, pose, proportions, expression, grayscale tones and lighting exactly as in the source photograph. Preserve the original identity and facial details; do not beautify, repaint, restyle, change clothes or invent anatomy. Keep fine natural hair edges, retain the full existing silhouette of the person, preserve transparent gaps around the arms, and keep the source framing. Output just this person on actual transparent alpha, without a background, frame, border, shadow, text or checkerboard.
+
+
+## Interactive identity badge
+
+The Lanyard component is adapted from the React Bits component supplied by Jayesh in his attachment. The custom front, back, and strap SVG artwork lives in public/images/id/. The front embeds Jayesh’s original in-transit photograph unchanged. Three.js renders the card and flexible strap; no external model or third-party portrait is used.
