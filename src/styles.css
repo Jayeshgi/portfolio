@@ -216,8 +216,8 @@ img { max-width:100%; }
 .experience-strip p { font-size:11px; line-height:1.75; margin-top:8px; color:#67665d; }
 .experience-strip .experience-description { margin:0; }
 .experience-date { font-size:9px; white-space:nowrap; }
-.skills-editorial { display:grid; grid-template-columns:1fr 2.2fr; gap:60px; padding-top:42px; }
-.skills-editorial>.small-label { font-size:10px; padding-top:15px; }
+.skills-editorial { display:grid; grid-template-columns:1fr; gap:22px; padding-top:32px; }
+.skills-editorial>.small-label { font-size:10px; padding-top:0; }
 details { border-bottom:1px solid var(--line); padding:0; }
 summary { list-style:none; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:15px 0; font-size:17px; letter-spacing:-.03em; cursor:pointer; }
 summary::-webkit-details-marker { display:none; }
