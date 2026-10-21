@@ -65,3 +65,9 @@ The original PDF lists an `@email.com` address. Website contact uses the explici
 ### Personal journey update ? 12 October 2026
 
 Jayesh confirmed 18 August 2023 as both his birthday and first college day; early difficulty learning technology followed by Study Sync, his first project; second-year DSA/language study and the Pillai AR internship for Reliance School; third-year participation in multiple hackathons and a team finalist place at the SIH intercollege stage in 2025; and ongoing fourth-year placement and internship preparation. Copy expands these facts into first-person chapters without claiming national SIH finalist status or completed fourth-year outcomes. The internship retains the r?sum? dates of May?June 2025 and its documented tools. Reliance School is the intended school for the AR app, not the internship employer.
+
+## Demo links - 21 October 2026
+
+- AI Library Assistant: https://jayesh-smart-library.onrender.com/ added to the existing Live demo action. The public landing page was browser-checked; authenticated workflows were not tested.
+- Care Assistant: https://careassistantdemo-977rg6x6qp7xfp4q9-5173.app.github.dev/login returned HTTP 404 during anonymous verification. Pending a working public URL before adding a Live demo action.
+- ID badge heading changed from BUILDER PASS to ENGINEER at Jayesh's request.

@@ -36,7 +36,7 @@ export const portfolio = {
       summary: 'Find a book by describing what you want to learn, then explore it in the library catalog.',
       placeholder: false, year: null,
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'Python', 'FastAPI', 'SQLAlchemy', 'Sentence Transformers', 'Gemini'],
-      repo: 'https://github.com/Jayeshgi/AI-Based-Library-Management', demo: null,
+      repo: 'https://github.com/Jayeshgi/AI-Based-Library-Management', demo: 'https://jayesh-smart-library.onrender.com/',
       problem: 'A student may know what they want to learn without knowing a book title or the right search terms. The challenge is to connect a natural-language request to relevant books and practical steps such as checking availability and borrowing.',
       contribution: 'Within the academic team, I built the chatbot, worked on the NLP tasks behind conversational book discovery, and implemented inventory management. My work connected natural-language requests with the library catalog and supported management of book records and availability.',
       approach: 'Match requests and book descriptions by meaning using sentence embeddings, rather than relying only on exact words. Gemini routes the request, while the catalog API provides book records and borrowing actions.',
